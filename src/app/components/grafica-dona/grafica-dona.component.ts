@@ -19,13 +19,6 @@ constructor() { }
 ngOnInit() {
 }
 
-
-
-
-
-
-
-
 // events
 public chartClicked({ event, active }: { event: MouseEvent, active: {}[] }): void {
   console.log(event, active);
